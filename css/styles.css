@@ -24,6 +24,17 @@ p {
   color: #8f8f8f;
 }
 
+/* Section */
+
+.colored-section {
+  background-color: #ff4c68;
+  color: #fff;
+}
+.white-section {
+  background-color: #fff;
+  color: #000;
+}
+
 /* Headings */
 
 .big-heading {
@@ -66,8 +77,8 @@ p {
 /* Title Section */
 
 #title {
-  background-color: #ff4c68;
-  color: #fff;
+  /* background-color: #ff4c68;
+  color: #fff; CHANGED during Refactoring*/
   text-align: left;
   /* position: relative;
   z-index: -2;  BREAKS NAVBAR AND BUTTONS */
@@ -89,7 +100,7 @@ p {
 /* Features Section */
 
 #features {
-  background-color: #fff;
+  /* background-color: #fff; CHANGED during Refactoring */
   position: relative;
   top: -120px;
   z-index: 1;
@@ -113,7 +124,6 @@ p {
 /* Testimonials Section */
 
 #testimonials {
-  color: #fff;
   background-color: #ef8172;
 }
 /* .carousel-item { REDUNDANT
@@ -157,10 +167,10 @@ p {
 
 /* Call To Action */
 
-#cta {
+/* #cta {
   background-color: #ff4c68;
   color: #fff;
-}
+} CHANGED TO "Section" during refactoring */
 /* .cta-heading {
   font-family: "Montserrat", sans-serif;
   font-weight: 900;
@@ -170,10 +180,10 @@ p {
 
 /* Footer */
 
-#footer {
+/* #footer {
   background-color: #fff;
   color: #000;
-}
+}   CHANGED during Refactoring */
 .social-icons {
   font-size: 3rem;
   margin: 5% 1%;
