@@ -1,37 +1,42 @@
 /* New way to import fonts? */
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;900&family=Ubuntu:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&family=Ubuntu:wght@400;500;700&display=swap");
+
+/* Containers */
 
 body {
   font-family: "Montserrat", sans-serif;
-}
-#title {
-  background-color: #ff4c68;
-  color: #fff;
-  /* position: relative;
-  z-index: -2;  BREAKS NAVBAR AND BUTTONS */
+  text-align: center;
 }
 .container-fluid {
-  padding: 3% 15%;
+  padding: 7% 15%;
 }
-h1 {
-  /* font-family: "Montserrat"; DEPRECATED? */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  /* font-family: "Montserrat-Black"; DEPRECATED? 'Montserrat-Black' NEW? Just leaving "Montserrat" for now */
+  font-family: "Montserrat";
+  font-weight: 700;
+}
+p {
+  color: #8f8f8f;
+}
+
+/* Headings */
+
+.big-heading {
   font-family: "Montserrat", sans-serif;
   font-size: 4rem;
   font-weight: 900;
   line-height: 1.5;
 }
-h2 {
+.section-heading {
   font-family: "Montserrat", sans-serif;
-  font-size: 2.5rem;
-  font-weight: 600;
+  font-size: 3rem;
+  font-weight: 700;
   line-height: 1.5;
-}
-h3 {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 600;
-}
-p {
-  color: #8f8f8f;
 }
 
 /* Navigation Bar */
@@ -41,14 +46,14 @@ p {
 }
 .navbar-brand {
   font-family: "Ubuntu";
-  font-size: 3rem;
+  font-size: 3.5rem;
   font-weight: bold;
 }
 .nav-item {
   padding: 0 18px;
 }
 .nav-link {
-  font-size: 1.2rem;
+  font-size: 1.7rem;
   font-weight: 400;
 }
 
@@ -56,6 +61,19 @@ p {
 
 .download-button {
   margin: 5% 3% 5% 0;
+}
+
+/* Title Section */
+
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+  text-align: left;
+  /* position: relative;
+  z-index: -2;  BREAKS NAVBAR AND BUTTONS */
+}
+#title .container-fluid {
+  padding: 3% 15% 7%;
 }
 
 /* Title Image */
@@ -72,14 +90,17 @@ p {
 
 #features {
   background-color: #fff;
-  padding: 7% 15%;
   position: relative;
   top: -120px;
   z-index: 1;
 }
 .feature-box {
-  text-align: center;
   padding: 5%;
+}
+.feature-title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 3.5rem;
+  font-weight: 800;
 }
 .icon-head {
   color: #ef8172;
@@ -92,24 +113,27 @@ p {
 /* Testimonials Section */
 
 #testimonials {
-  text-align: center;
   color: #fff;
   background-color: #ef8172;
 }
-.carousel-item {
+/* .carousel-item { REDUNDANT
   padding: 7% 15%;
-}
+} */
 .testimonial-image {
   width: 10%;
   border-radius: 100%;
   margin: 1rem;
+}
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+  font-style: italic;
 }
 
 /* Press Section */
 
 #press {
   background-color: #ef8172;
-  text-align: center;
   padding-bottom: 3%;
 }
 .press-logo {
@@ -121,10 +145,14 @@ p {
 
 #pricing {
   padding: 5%;
-  text-align: center;
 }
 .pricing-card {
   padding: 3% 2%;
+}
+.price-text {
+  font-size: 3.5rem;
+  font-weight: 700;
+  line-height: 1.5;
 }
 
 /* Call To Action */
@@ -132,26 +160,22 @@ p {
 #cta {
   background-color: #ff4c68;
   color: #fff;
-  padding: 7% 15%;
-  text-align: center;
 }
-.cta-heading {
-  font-family: "Montserrat-Black", sans-serif;
+/* .cta-heading {
+  font-family: "Montserrat", sans-serif;
   font-weight: 900;
   font-size: 3.5rem;
-  line-height: 1.5;
-}
+  line-height: 1.5;  CHANGED TO big-heading during refactoring
+} */
 
 /* Footer */
 
 #footer {
-  text-align: center;
-  padding: 7% 15%;
   background-color: #fff;
   color: #000;
 }
 .social-icons {
-  font-size: 2.5rem;
+  font-size: 3rem;
   margin: 5% 1%;
 }
 
