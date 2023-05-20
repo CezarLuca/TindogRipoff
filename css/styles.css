@@ -76,15 +76,16 @@ p {
 
 /* Title Section */
 
-#title {
-  /* background-color: #ff4c68;
-  color: #fff; CHANGED during Refactoring*/
-  text-align: left;
-  /* position: relative;
-  z-index: -2;  BREAKS NAVBAR AND BUTTONS */
-}
+/* #title { CHANGED during Refactoring 1.1
+  background-color: #ff4c68;
+  color: #fff; CHANGED during Refactoring
+  text-align: left; CHANGED during Refactoring 1.1
+  position: relative;
+  z-index: -2;  BREAKS NAVBAR AND BUTTONS 
+} */
 #title .container-fluid {
   padding: 3% 15% 7%;
+  text-align: left;
 }
 
 /* Title Image */
@@ -170,13 +171,14 @@ p {
 /* #cta {
   background-color: #ff4c68;
   color: #fff;
-} CHANGED TO "Section" during refactoring */
-/* .cta-heading {
+  } CHANGED TO "Section" during refactoring
+ .cta-heading {
   font-family: "Montserrat", sans-serif;
   font-weight: 900;
   font-size: 3.5rem;
   line-height: 1.5;  CHANGED TO big-heading during refactoring
-} */
+  } 
+*/
 
 /* Footer */
 
