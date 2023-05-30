@@ -39,7 +39,7 @@ p {
 
 .big-heading {
   font-family: "Montserrat", sans-serif;
-  font-size: 4rem;
+  font-size: 3.5rem;
   font-weight: 900;
   line-height: 1.5;
 }
@@ -53,11 +53,11 @@ p {
 /* Navigation Bar */
 
 .navbar {
-  padding-bottom: 4.5rem;
+  padding-bottom: 4rem;
 }
 .navbar-brand {
   font-family: "Ubuntu";
-  font-size: 3.5rem;
+  font-size: 3rem;
   font-weight: bold;
 }
 .nav-item {
@@ -111,7 +111,7 @@ p {
 }
 .feature-title {
   font-family: "Montserrat", sans-serif;
-  font-size: 3.5rem;
+  font-size: 3rem;
   font-weight: 800;
 }
 .icon-head {
@@ -161,7 +161,7 @@ p {
   padding: 3% 2%;
 }
 .price-text {
-  font-size: 3.5rem;
+  font-size: 3rem;
   font-weight: 700;
   line-height: 1.5;
 }
